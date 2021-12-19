@@ -344,7 +344,7 @@
 
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li>
-                                        <a href="#" data-toggle="modal" data-target="#addSuppliers">
+                                        <a href="#" data-toggle="modal" data-target="#addClient">
                                         اضافة عميل
                                         </a>
                                     </li>
@@ -394,7 +394,7 @@
                             </li>
 
                             <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect"> 
+                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="uil-store"></i>
                                     
                                     <span>
@@ -402,7 +402,7 @@
                                     </span>
                                 </a>
 
-                                <ul class="sub-menu" aria-expanded="false" >
+                                <ul class="sub-menu" aria-expanded="false">
                                     <li>
                                         <a href="#" data-toggle="modal" data-target="#addSuppliers">
                                         اضافة مرود
@@ -427,7 +427,7 @@
                                 </a>
 
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li>
+                                     <li>
                                         <a href="reports.html">
                                         تحليل المبيعات
                                         </a>
@@ -540,6 +540,8 @@
                     </div>
                 </div>
             </div>
+
+            <!--add client-->
 
             <div class="modal fade" id="addClient" tabindex="-1" role="dialog" aria-labelledby="addClientTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -693,6 +695,171 @@
                 </div>
             </div>
 
+            <!--add addSuppliers-->
+
+            <div class="modal fade" id="addSuppliers" tabindex="-1" role="dialog" aria-labelledby="addSuppliersTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="addSuppliersTitle">
+                                اضافة مورد
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Supplier number">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="اسم المنشأة">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الجوال ">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="البريد الالكتروني">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الرقم الضريبي">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">الحالة</option>
+                                                <option value="">الحالة</option>
+                                                <option value="">الحالة</option>
+                                                <option value="">الحالة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الشارع">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الاقليم">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="رقم بريدي">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label>
+                                            نسخ؟ عنوان الشحن
+                                        </label>
+                                        <div class="square-switch">
+                                            <input type="checkbox" id="square-switch1" switch="none" checked="">
+                                            <label for="square-switch1" class="m-0" data-on-label="On" data-off-label="Off"></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الشارع">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الاقليم">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="رقم بريدي">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                الغاء
+                            </button>
+
+                            <button type="button" class="btn btn-primary">
+                                حفظ <i class="fab fa-telegram-plane ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="main-content">
                 <div class="page-content">
                     <div class="container-fluid">
@@ -700,18 +867,53 @@
                             <div class="col-12 mb-4">
                                 <div class="page-title-box d-flex align-items-center justify-content-between">
                                     <h4 class="mb-0">
-                                        استعراض اصناف الخدمات
+                                        الصلاحيات
                                     </h4>
                                 </div>
 
                                 <div class="d-flex align-items-center justify-content-between">
-                                    <a href="add_category.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send w-md waves-effect waves-light">
+                                    <button  data-toggle="modal" data-target="#AddRole"  class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send w-md waves-effect waves-light">
                                         <i class="bx bx-plus float-right"></i>
 
                                         <span class="d-sm-inline-block ml-2">
-                                        أضافة جديد
+                                            أضافة صلاحية 
                                         </span>
-                                    </a>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="modal fade" id="AddRole" tabindex="-1" role="dialog" aria-labelledby="AddRoleTitle" aria-hidden="true">
+                                <div class="modal-dialog modal-dialog-centered" role="document">
+                                    <div class="modal-content">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="AddRoleTitle">
+                                                اضافة مجموعات الاعضاء
+                                            </h5>
+                                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                <span aria-hidden="true">&times;</span>
+                                            </button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <form>
+                                                <div class="row">
+                                                    <div class="col-12">
+                                                        <div class="form-group">
+                                                            <input type="text" class="form-control" placeholder="اسم المجموعة" />
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </form>
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                                الغاء
+                                            </button>
+                    
+                                            <button type="button" class="btn btn-primary">
+                                               تاكيد<i class="fab fa-telegram-plane ml-1"></i>
+                                            </button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
 
@@ -726,12 +928,8 @@
                                                     </th>
 
                                                     <th>
-                                                        الوصف
+                                                        انشاء
                                                     </th>
-
-                                                    <th>
-                                                        الرئيسي
-                                                    </th>   
 
                                                     <th>
                                                         خيارات
@@ -743,86 +941,22 @@
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        وثائق
+                                                        name
                                                     </td>
                                                     
                                                     <td>
-                                                        لا يوجد وصف
+                                                        2021-12-19 18:08:57	
                                                     </td>
 
                                                     <td>
-                                                        لا يوجد وصف
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="edit_category.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light" >
+                                                        <div class="d-flex align-items-center justify-content-start">
+                                                            <button  data-toggle="modal" data-target="#ChangeRole"  class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
                                                                 <i class="uil-edit"></i>
-                                                            </a>
-
-                                                            <a href="single_category.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
-                                                                <i class="uil-trash-alt"></i>
                                                             </button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
 
-                                                <tr>
-                                                    <td>
-                                                        الرئيسي
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        لا يوجد وصف
-                                                    </td>
-
-                                                    <td>
-                                                        لا يوجد وصف
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="edit_stock.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light" >
-                                                                <i class="uil-edit"></i>
-                                                            </a>
-
-                                                            <a href="single_stock.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
+                                                            <button  data-toggle="modal" data-target="#singleRole" class="btn mx-3 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
                                                                 <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
-                                                                <i class="uil-trash-alt"></i>
                                                             </button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>
-                                                        الرئيسي
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        لا يوجد وصف	
-                                                    </td>
-
-                                                    <td>
-                                                        لا يوجد وصف
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="edit_stock.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light" >
-                                                                <i class="uil-edit"></i>
-                                                            </a>
-
-                                                            <a href="single_stock.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
 
                                                             <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
                                                                 <i class="uil-trash-alt"></i>
@@ -836,6 +970,84 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--singleRole-->
+        
+        <div class="modal fade" id="singleRole" tabindex="-1" role="dialog" aria-labelledby="singleRoleTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="singleRoleTitle">
+                            مجموعات الاعضاء
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-12 mb-3">
+                                    <h5 class="modal-title mb-4" id="singleRoleTitle">
+                                        اسم المجموعة
+                                    </h5>
+
+                                    <h6>
+                                        SuperAdmin
+                                    </h6>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            الغاء
+                        </button>
+
+                        <button type="button" class="btn btn-primary">
+                            تاكيد <i class="fab fa-telegram-plane ml-1"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--change role-->
+
+        <div class="modal fade" id="ChangeRole" tabindex="-1" role="dialog" aria-labelledby="ChangeRoleTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="ChangeRoleTitle">
+                            تعديل  مجموعات الاعضاء
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="اسم المجموعة" />
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            الغاء
+                        </button>
+
+                        <button type="button" class="btn btn-primary">
+                           تاكيد<i class="fab fa-telegram-plane ml-1"></i>
+                        </button>
                     </div>
                 </div>
             </div>

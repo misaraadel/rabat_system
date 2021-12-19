@@ -17,12 +17,6 @@
 
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-        <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-
-        <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-
-        <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />  
-
         <link href="assets/css/lib/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
 
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -307,7 +301,6 @@
                                         كل المنتاجات
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="products.html">
                                         استعراض المنتاجات
@@ -326,7 +319,7 @@
                                         </a>
                                     </li>
 
-                                    <li>
+                                     <li>
                                         <a href="product_units.html">
                                         وحدات القياس
                                         </a>
@@ -344,7 +337,7 @@
 
                                 <ul class="sub-menu" aria-expanded="false">
                                     <li>
-                                        <a href="#" data-toggle="modal" data-target="#addSuppliers">
+                                        <a href="#" data-toggle="modal" data-target="#addClient">
                                         اضافة عميل
                                         </a>
                                     </li>
@@ -394,7 +387,7 @@
                             </li>
 
                             <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect"> 
+                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="uil-store"></i>
                                     
                                     <span>
@@ -402,7 +395,7 @@
                                     </span>
                                 </a>
 
-                                <ul class="sub-menu" aria-expanded="false" >
+                                <ul class="sub-menu" aria-expanded="false">
                                     <li>
                                         <a href="#" data-toggle="modal" data-target="#addSuppliers">
                                         اضافة مرود
@@ -427,7 +420,7 @@
                                 </a>
 
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li>
+                                     <li>
                                         <a href="reports.html">
                                         تحليل المبيعات
                                         </a>
@@ -540,6 +533,8 @@
                     </div>
                 </div>
             </div>
+
+            <!--add client-->
 
             <div class="modal fade" id="addClient" tabindex="-1" role="dialog" aria-labelledby="addClientTitle" aria-hidden="true">
                 <div class="modal-dialog modal-dialog-centered" role="document">
@@ -693,25 +688,552 @@
                 </div>
             </div>
 
+            <!--add addSuppliers-->
+
+            <div class="modal fade" id="addSuppliers" tabindex="-1" role="dialog" aria-labelledby="addSuppliersTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="addSuppliersTitle">
+                                اضافة مورد
+                            </h5>
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                            </button>
+                        </div>
+                        <div class="modal-body">
+                            <form>
+                                <div class="row">
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="Supplier number">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="اسم المنشأة">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الجوال ">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="البريد الالكتروني">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الرقم الضريبي">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">الحالة</option>
+                                                <option value="">الحالة</option>
+                                                <option value="">الحالة</option>
+                                                <option value="">الحالة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الشارع">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الاقليم">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="رقم بريدي">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-12 mb-3">
+                                        <label>
+                                            نسخ؟ عنوان الشحن
+                                        </label>
+                                        <div class="square-switch">
+                                            <input type="checkbox" id="square-switch1" switch="none" checked="">
+                                            <label for="square-switch1" class="m-0" data-on-label="On" data-off-label="Off"></label>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الشارع">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                                <option value="">المدينة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="الاقليم">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <input type="text" class="form-control" placeholder="رقم بريدي">
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-3">
+                                        <div class="form-group">
+                                            <select class="form-control">
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                                <option value="">الدولة</option>
+                                            </select>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                                الغاء
+                            </button>
+
+                            <button type="button" class="btn btn-primary">
+                                حفظ <i class="fab fa-telegram-plane ml-1"></i>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="main-content">
                 <div class="page-content">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 mb-4">
-                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                            <div class="col-12 mb-5">
+                                <div class="page-title-box text-center d-flex mt-4 align-items-center align-content-center justify-content-center">
                                     <h4 class="mb-0">
-                                        استعراض اصناف الخدمات
+                                        بيانات العميل
                                     </h4>
                                 </div>
 
-                                <div class="d-flex align-items-center justify-content-between">
-                                    <a href="add_category.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send w-md waves-effect waves-light">
-                                        <i class="bx bx-plus float-right"></i>
+                                <div class="card">
+                                    <div class="card-body">
+                                        <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                            <thead>
+                                                <tr>
+                                                    <th>
+                                                        رقم العميل	
+                                                    </th>
+    
+                                                    <th>
+                                                        اسم المنشأة	
+                                                    </th>
+    
+                                                    <th>
+                                                        الجوال 
+                                                    </th>
+                                                    
+                                                    <th>
+                                                        الحالة
+                                                    </th>
+    
+                                                    <th>
+                                                        الرقم الضريبى	
+                                                    </th>
+    
+                                                    <th>
+                                                        البريد الالكتروني
+                                                    </th>
+                                                </tr>
+                                            </thead>
+    
+    
+                                            <tbody>
+                                                <tr>
+                                                    <td>
+                                                        CLNT/2021/24	
+                                                    </td>
+                                                    
+                                                    <td>
+                                                        new test	
+                                                    </td>
+    
+                                                    <td>
+                                                        123456789
+                                                    </td>
+    
+                                                    <td>
+                                                        نشط
+                                                    </td>
+    
+                                                    <td>
+                                                        123456789
+                                                    </td>
+    
+                                                    <td>
+                                                        test@mail.com
+                                                    </td>
+                                                </tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                </div>
+                            </div>
 
-                                        <span class="d-sm-inline-block ml-2">
-                                        أضافة جديد
-                                        </span>
-                                    </a>
+                            
+
+                            <div class="col-12 mb-5">
+                                <div class="row">
+                                    <div class="col-lg-6 col-12 mb-5">
+                                        <div class="page-title-box d-flex mt-4 align-items-center justify-content-between">
+                                            <h4 class="mb-0">
+                                                عنوان الشحن
+                                            </h4>
+                                        </div>
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                شارع 
+                                                            </th>
+                    
+                                                            <th>
+                                                                الحي 
+                                                            </th>
+
+                                                            <th>
+                                                                رقم بريدي	
+                                                            </th>
+                    
+                                                            <th>
+                                                                المدينة 
+                                                            </th>
+
+                                                            <th>
+                                                                الدولة 
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                    
+                    
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                not set	
+                                                            </td>
+                                                            
+                                                            <td>
+                                                                not set
+                                                            </td>
+                    
+                                                            <td>
+                                                                not set
+                                                            </td>
+                    
+                                                            <td>
+                                                                not set
+                                                            </td>
+                    
+                                                            <td>
+                                                                not set
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="col-lg-6 col-12 mb-5">
+                                        <div class="page-title-box mt-4 d-flex align-items-center justify-content-between">
+                                            <h4 class="mb-0">
+                                                عنوان الفوترة
+                                            </h4>
+                                        </div>
+
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                شارع 
+                                                            </th>
+                    
+                                                            <th>
+                                                                الحي 
+                                                            </th>
+
+                                                            <th>
+                                                                رقم بريدي	
+                                                            </th>
+                    
+                                                            <th>
+                                                                المدينة 
+                                                            </th>
+
+                                                            <th>
+                                                                الدولة 
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                    
+                    
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                                not set	
+                                                            </td>
+                                                            
+                                                            <td>
+                                                                not set
+                                                            </td>
+                    
+                                                            <td>
+                                                                not set
+                                                            </td>
+                    
+                                                            <td>
+                                                                not set
+                                                            </td>
+                    
+                                                            <td>
+                                                                not set
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-12 mb-5">
+                                <div class="page-title-box d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-4">
+                                        بيانات العميل
+                                    </h4>
+                                </div>
+
+                                <div class="alert alert-success" role="alert">
+                                    لا يوجد مسئولين لهذا العميل
+                                </div>
+
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>
+                                                                الاسم 
+                                                            </th>
+                    
+                                                            <th>
+                                                                الجوال 
+                                                            </th>
+        
+                                                            <th>
+                                                                الهاتف
+                                                            </th>
+                    
+                                                            <th>
+                                                                البريد الالكتروني 
+                                                            </th>
+        
+                                                            <th>
+                                                                البيان 
+                                                            </th>
+                                                            <th>
+                                                                الظهور فى المستندات
+                                                            </th>
+                                                        </tr>
+                                                    </thead>
+                    
+                    
+                                                    <tbody>
+                                                        <tr>
+                                                            <td>
+                                                               اسم العميل
+                                                            </td>
+                                                            
+                                                            <td>
+                                                               2134412
+                                                            </td>
+                    
+                                                            <td>
+                                                                2134412
+                                                            </td>
+                    
+                                                            <td>
+                                                                mail@mail.com
+                                                            </td>
+                    
+                                                            <td>
+                                                                212112
+                                                            </td>
+                                                            
+                                                            <td>
+                                                                1
+                                                            </td>
+        
+                                                            <td>
+                                                                <div class="d-flex align-items-center justify-content-between">
+                                                                    <button class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
+                                                                        <i class="uil-edit"></i>
+                                                                    </button>
+        
+                                                                    <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                                                                        <i class="uil-trash-alt"></i>
+                                                                    </button>
+                                                                </div>
+                                                            </td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div class="page-title-box mt-4 d-flex align-items-center justify-content-between">
+                                    <h4 class="mb-4">
+                                        اضافة مسئول
+                                    </h4>
+                                </div>
+
+                                <form>
+                                    <div class="row">
+                                        <div class="col-lg-6 col-12 mb-3">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="اسم المسئول">
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-lg-6 col-12 mb-3">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="جوال المسئول">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-lg-6 col-12 mb-3">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="هاتف المسئول">
+                                            </div>
+                                        </div>
+    
+                                        <div class="col-lg-6 col-12 mb-3">
+                                            <div class="form-group">
+                                                <input type="text" class="form-control" placeholder="ايميل المسئول">
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mb-4">
+                                            <div class="form-group">
+                                                <textarea class="form-control" placeholder="الملاحظة على المسئول" cols="30" rows="10"></textarea>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12 mb-3">
+                                            <label>
+                                                عرض المسئول فى المستندات (واحد فقط مسموح)
+                                            </label>
+                                            <div class="square-switch">
+                                                <input type="checkbox" id="square-switch1" switch="none" checked="">
+                                                <label for="square-switch1" class="m-0" data-on-label="On" data-off-label="Off"></label>
+                                            </div>
+                                        </div>
+
+                                        <div class="col-12">
+                                            <button type="button" class="btn btn-primary">
+                                                حفظ <i class="fab fa-telegram-plane ml-1"></i>
+                                            </button>
+                                        </div>
+                                    </div>
+                                </form>
+                            </div>
+
+                            <div class="col-12 mb-4">
+                                <div class="page-title-box text-center d-flex mt-4 align-items-center align-content-center justify-content-center">
+                                    <h4 class="mb-0">
+                                        تقارير العميل
+                                    </h4>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12 mb-4">
+                                <div class="alert d-flex flex-column justify-content-center text-center alert-success" role="alert">
+                                    <h5>
+                                        عدد الفواتير
+                                    </h5>
+
+                                    <p>
+                                        0
+                                    </p>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-12 mb-4">
+                                <div class="alert d-flex flex-column justify-content-center text-center alert-success" role="alert">
+                                    <h5>
+                                        مجموع الفواتير
+                                    </h5>
+
+                                    <p>
+                                        0.00
+                                    </p>
                                 </div>
                             </div>
 
@@ -722,112 +1244,60 @@
                                             <thead>
                                                 <tr>
                                                     <th>
-                                                        الاسم
+                                                        رقم الفاتورة	
                                                     </th>
-
+    
                                                     <th>
                                                         الوصف
                                                     </th>
-
+    
                                                     <th>
-                                                        الرئيسي
-                                                    </th>   
-
+                                                        تاريخ الاصدار	 
+                                                    </th>
+                                                    
                                                     <th>
-                                                        خيارات
+                                                        الحالة
+                                                    </th>
+    
+                                                    <th>
+                                                        الاجمالى
+                                                    </th>
+    
+                                                    <th>
+                                                        المشرف
                                                     </th>
                                                 </tr>
                                             </thead>
-
-
+    
+    
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        وثائق
+                                                        <a href="inovice_details.html">
+                                                            inv/2021/24	
+                                                        </a>
                                                     </td>
                                                     
                                                     <td>
-                                                        لا يوجد وصف
+                                                        لا يوجد	
                                                     </td>
-
+    
                                                     <td>
-                                                        لا يوجد وصف
+                                                        2021-12-19 00:00:00	
                                                     </td>
-
+    
                                                     <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="edit_category.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light" >
-                                                                <i class="uil-edit"></i>
-                                                            </a>
-
-                                                            <a href="single_category.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
-                                                                <i class="uil-trash-alt"></i>
-                                                            </button>
-                                                        </div>
+                                                        بانتظار الدفع	
                                                     </td>
-                                                </tr>
-
-                                                <tr>
+    
                                                     <td>
-                                                        الرئيسي
+                                                        0.00
                                                     </td>
-                                                    
+    
                                                     <td>
-                                                        لا يوجد وصف
-                                                    </td>
-
-                                                    <td>
-                                                        لا يوجد وصف
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="edit_stock.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light" >
-                                                                <i class="uil-edit"></i>
-                                                            </a>
-
-                                                            <a href="single_stock.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
-                                                                <i class="uil-trash-alt"></i>
-                                                            </button>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>
-                                                        الرئيسي
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        لا يوجد وصف	
-                                                    </td>
-
-                                                    <td>
-                                                        لا يوجد وصف
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="edit_stock.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light" >
-                                                                <i class="uil-edit"></i>
-                                                            </a>
-
-                                                            <a href="single_stock.html" class="btn d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
-                                                                <i class="uil-trash-alt"></i>
-                                                            </button>
-                                                        </div>
+                                                        <a href="user_profile.html" class="btn w-auto d-flex align-items-center justify-content-center align-content-center btn-success chat-send waves-effect waves-light">
+                                                            <i class="bx bx-user"></i>
+                                                        </a>
                                                     </td>
                                                 </tr>
                                             </tbody>
@@ -842,32 +1312,24 @@
         </div>
 
         <script src="assets/libs/jquery/jquery.min.js"></script>
+
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
         <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+
         <script src="assets/libs/simplebar/simplebar.min.js"></script>
+
         <script src="assets/libs/node-waves/waves.min.js"></script>
+
         <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+
         <script src="assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
 
-        <!-- Required datatable js -->
-        <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
-        <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-        <!-- Buttons examples -->
-        <script src="assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-        <script src="assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
-        <script src="assets/libs/jszip/jszip.min.js"></script>
-        <script src="assets/libs/pdfmake/build/pdfmake.min.js"></script>
-        <script src="assets/libs/pdfmake/build/vfs_fonts.js"></script>
-        <script src="assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
-        <script src="assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
-        <script src="assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
-        
-        <!-- Responsive examples -->
-        <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-        <script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+        <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
 
-        <!-- Datatable init js -->
-        <script src="assets/js/pages/datatables.init.js"></script>
+        <script src="assets/js/pages/apexcharts.init.js"></script>
+
+        <script src="assets/js/pages/dashboard.init.js"></script>
 
         <script src="assets/js/app.js"></script>
     </body>
