@@ -427,13 +427,13 @@
                                 </a>
 
                                 <ul class="sub-menu" aria-expanded="false">
-                                     <li>
+                                    <li>
                                         <a href="reports.html">
                                         تحليل المبيعات
                                         </a>
                                     </li>
                                 </ul>
-                            </li>
+                            </li>   
 
                             <li>
                                 <a  href="javascript: void(0);" class="has-arrow waves-effect">
@@ -459,6 +459,30 @@
                                 </ul>
                             </li>
                             
+                            <li>
+                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
+                                    <i class="dripicons-scale"></i>
+                                    
+                                    <span>
+                                    العروض
+                                    </span>
+                                </a>
+
+                                <ul class="sub-menu" aria-expanded="false">
+                                    <li>
+                                        <a href="add_offer.html">
+                                        اضافة عرض
+                                        </a>
+                                    </li>
+
+                                    <li>
+                                        <a href="offers_list.html">
+                                            العروض
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+
                             <li>
                                 <a  href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="uil uil-cog"></i>
@@ -891,8 +915,18 @@
                             <div class="col-12 mb-4">
                                 <div class="page-title-box d-flex align-items-center justify-content-between">
                                     <h4 class="mb-0">
-                                        السندات
+                                        العروض  
                                     </h4>
+                                </div>
+
+                                <div class="d-flex align-items-center align-content-center">
+                                    <a href="add_offer.html" class="btn mr-2 d-flex align-items-center justify-content-between align-content-center btn-primary chat-send w-md waves-effect waves-light">
+                                        <i class="bx bx-plus float-right"></i>
+
+                                        <span class="d-sm-inline-block ml-2">
+                                            انشاء عرض سعر
+                                        </span>
+                                    </a>
                                 </div>
                             </div>
 
@@ -903,35 +937,23 @@
                                             <thead>
                                                 <tr>
                                                     <th>
-                                                    الاسم
+                                                        العرض
                                                     </th>
 
                                                     <th>
-                                                        المرجع
+                                                        تم انشاء في
                                                     </th>
 
                                                     <th>
-                                                       نوع السند
+                                                        اسم العميل
                                                     </th>
 
                                                     <th>
-                                                        تاريخ 
+                                                        المبلغ
                                                     </th>
 
                                                     <th>
-                                                      العميل
-                                                    </th>
-
-                                                    <th>
-                                                    الفاتوره
-                                                    </th>
-
-                                                    <th>
-                                                        اجمالي الفواتير
-                                                    </th>
-
-                                                    <th>
-                                                        المسدد
+                                                        الوضع    
                                                     </th>
 
                                                     <th>
@@ -944,156 +966,76 @@
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        SUPL/2021/3 test055	
+                                                        INV1
                                                     </td>
                                                     
                                                     <td>
-                                                        PYT/2021/1	
+                                                        31/07/2021
                                                     </td>
 
                                                     <td>
-                                                        سند مورد		
+                                                        اسم العميل
                                                     </td>
 
                                                     <td>
-                                                        2021-11-22		
+                                                        2.862,72 SAR
                                                     </td>
 
                                                     <td>
-                                                        test055		   
-                                                    </td>
-
-                                                    <td>
-                                                        <a href="single_invoices.html" class="btn btn-primary">
-                                                            INV/2021/7
-                                                        </a>	
-                                                    </td>
-
-                                                    <td>
-                                                        467.40	
-                                                    </td>
-
-                                                    <td>
-                                                        300.00
+                                                        <div class="btn mr-2 d-flex align-items-center justify-content-center align-content-center btn-primary chat-send w-md waves-effect waves-light">                    
+                                                            <span class="d-sm-inline-block ml-2">
+                                                                تم الموافقه
+                                                            </span>
+                                                        </div>	
                                                     </td>
 
                                                     <td>
                                                         <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="receipts_invoice_details.html"  class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
+                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light"  data-toggle="modal" data-target="#editOffer">
+                                                                <i class="uil-edit"></i>
+                                                            </button>
 
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-print"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-danger chat-send waves-effect waves-light">
-                                                                <i class="uil-trash"></i>
-                                                            </a>
+                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                                                                <i class="uil-trash-alt"></i>
+                                                            </button>
                                                         </div>
                                                     </td>
                                                 </tr>
 
                                                 <tr>
                                                     <td>
-                                                        SUPL/2021/3 test055	
+                                                        INV1
                                                     </td>
                                                     
                                                     <td>
-                                                        PYT/2021/1	
+                                                        31/07/2021
                                                     </td>
 
                                                     <td>
-                                                        سند مورد		
+                                                        اسم العميل
                                                     </td>
 
                                                     <td>
-                                                        2021-11-22		
+                                                        2.862,72 SAR
                                                     </td>
 
                                                     <td>
-                                                        test055		   
-                                                    </td>
-
-                                                    <td>
-                                                        <a href="single_invoices.html" class="btn btn-primary">
-                                                            INV/2021/7
-                                                        </a>	
-                                                    </td>
-
-                                                    <td>
-                                                        467.40	
-                                                    </td>
-
-                                                    <td>
-                                                        300.00
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="receipts_invoice_details.html" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-print"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-danger chat-send waves-effect waves-light">
-                                                                <i class="uil-trash"></i>
-                                                            </a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>
-                                                        SUPL/2021/3 test055	
+                                                        <div class="btn mr-2 d-flex align-items-center justify-content-center align-content-center btn-dark chat-send w-md waves-effect waves-light">                    
+                                                            <span class="d-sm-inline-block ml-2">
+                                                                مسوده
+                                                            </span>
+                                                        </div>	
                                                     </td>
                                                     
                                                     <td>
-                                                        PYT/2021/1	
-                                                    </td>
-
-                                                    <td>
-                                                        سند مورد		
-                                                    </td>
-
-                                                    <td>
-                                                        2021-11-22		
-                                                    </td>
-
-                                                    <td>
-                                                        test055		   
-                                                    </td>
-
-                                                    <td>
-                                                        <a href="single_invoices.html" class="btn btn-primary">
-                                                            INV/2021/7
-                                                        </a>	
-                                                    </td>
-
-                                                    <td>
-                                                        467.40	
-                                                    </td>
-
-                                                    <td>
-                                                        300.00
-                                                    </td>
-
-                                                    <td>
                                                         <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="receipts_invoice_details.html" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
+                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light"  data-toggle="modal" data-target="#editOffer">
+                                                                <i class="uil-edit"></i>
+                                                            </button>
 
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-print"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-danger chat-send waves-effect waves-light">
-                                                                <i class="uil-trash"></i>
-                                                            </a>
+                                                            <button class="btn d-flex align-items-center justify-content-between align-content-center btn-danger  chat-send waves-effect waves-light">
+                                                                <i class="uil-trash-alt"></i>
+                                                            </button>
                                                         </div>
                                                     </td>
                                                 </tr>
@@ -1103,6 +1045,56 @@
                                 </div>
                             </div>
                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="modal fade" id="editOffer" tabindex="-1" role="dialog" aria-labelledby="editOfferTitle" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="editOfferTitle">
+                            تعديل العرض
+                        </h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <form>
+                            <div class="row">
+                                <div class="col-lg-6 col-12 mb-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="اسم العميل">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-12 mb-3">
+                                    <div class="form-group">
+                                        <input type="text" class="form-control" placeholder="تاريخ العرض">
+                                    </div>
+                                </div>
+
+                                <div class="col-lg-6 col-12 mb-3">
+                                    <div class="form-group">
+                                        <select class="form-control">
+                                            <option value="">مجموعه العروض</option>
+                                            <option value="">مجموعه العروض</option>
+                                        </select>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">
+                            الغاء
+                        </button>
+
+                        <button type="button" class="btn btn-primary">
+                            حفظ <i class="fab fa-telegram-plane ml-1"></i>
+                        </button>
                     </div>
                 </div>
             </div>

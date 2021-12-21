@@ -17,12 +17,6 @@
 
         <link rel="shortcut icon" href="assets/images/favicon.ico">
 
-        <link href="assets/libs/datatables.net-bs4/css/dataTables.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-
-        <link href="assets/libs/datatables.net-buttons-bs4/css/buttons.bootstrap4.min.css" rel="stylesheet" type="text/css" />
-
-        <link href="assets/libs/datatables.net-responsive-bs4/css/responsive.bootstrap4.min.css" rel="stylesheet" type="text/css" />  
-
         <link href="assets/css/lib/bootstrap.min.css" id="bootstrap-style" rel="stylesheet" type="text/css" />
 
         <link href="assets/css/icons.min.css" rel="stylesheet" type="text/css" />
@@ -307,7 +301,6 @@
                                         كل المنتاجات
                                         </a>
                                     </li>
-
                                     <li>
                                         <a href="products.html">
                                         استعراض المنتاجات
@@ -326,7 +319,7 @@
                                         </a>
                                     </li>
 
-                                    <li>
+                                     <li>
                                         <a href="product_units.html">
                                         وحدات القياس
                                         </a>
@@ -458,7 +451,7 @@
                                     </li>
                                 </ul>
                             </li>
-                            
+
                             <li>
                                 <a  href="javascript: void(0);" class="has-arrow waves-effect">
                                     <i class="uil uil-cog"></i>
@@ -469,7 +462,7 @@
                                 </a>
 
                                 <ul class="sub-menu" aria-expanded="false">
-                                    <li>
+                                     <li>
                                         <a href="category.html">
                                         اقسام المنتج
                                         </a>
@@ -888,218 +881,58 @@
                 <div class="page-content">
                     <div class="container-fluid">
                         <div class="row">
-                            <div class="col-12 mb-4">
+                            <div class="col-12">
                                 <div class="page-title-box d-flex align-items-center justify-content-between">
                                     <h4 class="mb-0">
-                                        السندات
+                                        انشاء عرض سعر
                                     </h4>
                                 </div>
                             </div>
+                        </div>
 
-                            <div class="col-12">
-                                <div class="card">
-                                    <div class="card-body">
-                                        <table id="datatable-buttons" class="table table-striped table-bordered dt-responsive nowrap" style="border-collapse: collapse; border-spacing: 0; width: 100%;">
-                                            <thead>
-                                                <tr>
-                                                    <th>
-                                                    الاسم
-                                                    </th>
+                        <div class="row">
+                            <div class="card w-100">
+                                <div class="card-body">
+                                    <form>
+                                        <div class="row">
+                                            <div class="col-lg-4 col-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="اسم العميل" />
+                                                </div>
+                                            </div>
 
-                                                    <th>
-                                                        المرجع
-                                                    </th>
+                                            <div class="col-lg-4 col-12 mb-3">
+                                                <div class="form-group">
+                                                    <input type="text" class="form-control" placeholder="تاريخ العرض" />
+                                                </div>
+                                            </div>
 
-                                                    <th>
-                                                       نوع السند
-                                                    </th>
+                                            <div class="col-lg-4 col-12 mb-3">
+                                                <div class="form-group">
+                                                    <select class="form-control">
+                                                        <option value="">
+                                                            مجموعة العروض
+                                                        </option>
 
-                                                    <th>
-                                                        تاريخ 
-                                                    </th>
-
-                                                    <th>
-                                                      العميل
-                                                    </th>
-
-                                                    <th>
-                                                    الفاتوره
-                                                    </th>
-
-                                                    <th>
-                                                        اجمالي الفواتير
-                                                    </th>
-
-                                                    <th>
-                                                        المسدد
-                                                    </th>
-
-                                                    <th>
-                                                        خيارات
-                                                    </th>
-                                                </tr>
-                                            </thead>
-
-
-                                            <tbody>
-                                                <tr>
-                                                    <td>
-                                                        SUPL/2021/3 test055	
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        PYT/2021/1	
-                                                    </td>
-
-                                                    <td>
-                                                        سند مورد		
-                                                    </td>
-
-                                                    <td>
-                                                        2021-11-22		
-                                                    </td>
-
-                                                    <td>
-                                                        test055		   
-                                                    </td>
-
-                                                    <td>
-                                                        <a href="single_invoices.html" class="btn btn-primary">
-                                                            INV/2021/7
-                                                        </a>	
-                                                    </td>
-
-                                                    <td>
-                                                        467.40	
-                                                    </td>
-
-                                                    <td>
-                                                        300.00
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="receipts_invoice_details.html"  class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-print"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-danger chat-send waves-effect waves-light">
-                                                                <i class="uil-trash"></i>
-                                                            </a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>
-                                                        SUPL/2021/3 test055	
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        PYT/2021/1	
-                                                    </td>
-
-                                                    <td>
-                                                        سند مورد		
-                                                    </td>
-
-                                                    <td>
-                                                        2021-11-22		
-                                                    </td>
-
-                                                    <td>
-                                                        test055		   
-                                                    </td>
-
-                                                    <td>
-                                                        <a href="single_invoices.html" class="btn btn-primary">
-                                                            INV/2021/7
-                                                        </a>	
-                                                    </td>
-
-                                                    <td>
-                                                        467.40	
-                                                    </td>
-
-                                                    <td>
-                                                        300.00
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="receipts_invoice_details.html" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-print"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-danger chat-send waves-effect waves-light">
-                                                                <i class="uil-trash"></i>
-                                                            </a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-
-                                                <tr>
-                                                    <td>
-                                                        SUPL/2021/3 test055	
-                                                    </td>
-                                                    
-                                                    <td>
-                                                        PYT/2021/1	
-                                                    </td>
-
-                                                    <td>
-                                                        سند مورد		
-                                                    </td>
-
-                                                    <td>
-                                                        2021-11-22		
-                                                    </td>
-
-                                                    <td>
-                                                        test055		   
-                                                    </td>
-
-                                                    <td>
-                                                        <a href="single_invoices.html" class="btn btn-primary">
-                                                            INV/2021/7
-                                                        </a>	
-                                                    </td>
-
-                                                    <td>
-                                                        467.40	
-                                                    </td>
-
-                                                    <td>
-                                                        300.00
-                                                    </td>
-
-                                                    <td>
-                                                        <div class="d-flex align-items-center justify-content-around">
-                                                            <a href="receipts_invoice_details.html" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-primary chat-send waves-effect waves-light">
-                                                                <i class="uil-eye"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-success chat-send waves-effect waves-light">
-                                                                <i class="uil-print"></i>
-                                                            </a>
-
-                                                            <a href="#" class="btn ml-2 d-flex align-items-center justify-content-between align-content-center btn-danger chat-send waves-effect waves-light">
-                                                                <i class="uil-trash"></i>
-                                                            </a>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
-                                    </div>
+                                                        <option value="">
+                                                            مجموعة العروض
+                                                        </option>
+                                                        
+                                                        <option value="">
+                                                            مجموعة العروض
+                                                        </option>
+                                                    </select>
+                                                </div>
+                                            </div>
+                                            <div class="col-12">
+                                                <div class="d-flex align-items-center justify-content-around">
+                                                    <button type="button" class="btn btn-primary">
+                                                        حفظ <i class="fab fa-telegram-plane ml-1"></i>
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </form>
                                 </div>
                             </div>
                         </div>
@@ -1109,32 +942,25 @@
         </div>
 
         <script src="assets/libs/jquery/jquery.min.js"></script>
+
         <script src="assets/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
+
         <script src="assets/libs/metismenu/metisMenu.min.js"></script>
+
         <script src="assets/libs/simplebar/simplebar.min.js"></script>
+
         <script src="assets/libs/node-waves/waves.min.js"></script>
+
         <script src="assets/libs/waypoints/lib/jquery.waypoints.min.js"></script>
+
         <script src="assets/libs/jquery.counterup/jquery.counterup.min.js"></script>
 
-        <!-- Required datatable js -->
-        <script src="assets/libs/datatables.net/js/jquery.dataTables.min.js"></script>
-        <script src="assets/libs/datatables.net-bs4/js/dataTables.bootstrap4.min.js"></script>
-        <!-- Buttons examples -->
-        <script src="assets/libs/datatables.net-buttons/js/dataTables.buttons.min.js"></script>
-        <script src="assets/libs/datatables.net-buttons-bs4/js/buttons.bootstrap4.min.js"></script>
-        <script src="assets/libs/jszip/jszip.min.js"></script>
-        <script src="assets/libs/pdfmake/build/pdfmake.min.js"></script>
-        <script src="assets/libs/pdfmake/build/vfs_fonts.js"></script>
-        <script src="assets/libs/datatables.net-buttons/js/buttons.html5.min.js"></script>
-        <script src="assets/libs/datatables.net-buttons/js/buttons.print.min.js"></script>
-        <script src="assets/libs/datatables.net-buttons/js/buttons.colVis.min.js"></script>
-        
-        <!-- Responsive examples -->
-        <script src="assets/libs/datatables.net-responsive/js/dataTables.responsive.min.js"></script>
-        <script src="assets/libs/datatables.net-responsive-bs4/js/responsive.bootstrap4.min.js"></script>
+        <script src="assets/libs/apexcharts/apexcharts.min.js"></script>
 
-        <!-- Datatable init js -->
-        <script src="assets/js/pages/datatables.init.js"></script>
+        <script src="assets/js/pages/apexcharts.init.js"></script>
+
+        <script src="assets/js/pages/dashboard.init.js"></script>
+        <script src="assets/js/pages/table-responsive.init.js"></script>
 
         <script src="assets/js/app.js"></script>
     </body>
