@@ -198,4 +198,12 @@ textarea {
   color: #3AAFA9;
   font-size: 15px;
 }
+
+h1, h2, h3, h4, h5, h6 {
+  color: #92278F;
+}
+
+.mm-active .active, .mm-active .active i, .mm-active, .mm-active > i, th, h4 span {
+  color: #00A79D !important;
+}
 /*# sourceMappingURL=style.css.map */
