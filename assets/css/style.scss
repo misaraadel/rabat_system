@@ -80,3 +80,19 @@ h1 , h2 , h3 , h4 , h5 ,h6{
 .mm-active .active , .mm-active .active i , .mm-active , .mm-active>i , th ,  h4 span{
     color: #00A79D !important;
 }
+
+.logo-lg img{
+    width: 120px;
+    height: 60px;
+    object-fit: contain;
+    object-position: center;
+}
+
+@media (max-width: 900px) {
+    .logo-sm img{
+        width: 100px;
+        height: 60px;
+        object-position: center;
+        object-fit: contain;
+    }
+}
