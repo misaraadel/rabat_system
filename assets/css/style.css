@@ -225,5 +225,14 @@ h1, h2, h3, h4, h5, h6 {
     -o-object-fit: contain;
        object-fit: contain;
   }
+  .dt-buttons.btn-group .btn {
+    padding: .47rem .5rem !important;
+  }
+}
+
+@media (max-width: 321px) {
+  .dt-buttons.btn-group .btn {
+    padding: .47rem .1rem !important;
+  }
 }
 /*# sourceMappingURL=style.css.map */
