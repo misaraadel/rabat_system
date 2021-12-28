@@ -9,7 +9,7 @@
         نظام ربط للفواتير
         </title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
 
         <meta content="Premium Multipurpose Admin & Dashboard Template" name="description" />
 
@@ -29,1638 +29,707 @@
         <link rel="stylesheet" href="assets/css/style.css" />
     </head>
 
-    <body>
-        <div id="layout-wrapper">
-            
-            <header id="page-topbar">
-                <div class="navbar-header">
-                    <div class="d-flex">
-                        <!-- LOGO -->
-                        <div class="navbar-brand-box">
-                            <a href="index.html" class="logo logo-dark">
-                                <span class="logo-sm">
-                                    <img src="assets/images/logo-sm.png" alt="" height="22">
-                                </span>
-
-                                <span class="logo-lg">
-                                    <img src="assets/images/logo-dark.png" alt="" height="20">
-                                </span>
-                            </a>
-
-                            <a href="index.html" class="logo logo-light">
-                                <span class="logo-sm">
-                                    <img src="assets/images/logo-sm.png" alt="" height="22">
-                                </span>
-
-                                <span class="logo-lg">
-                                    <img src="assets/images/logo-light.png" alt="" height="20">
-                                </span>
-                            </a>
-                        </div>
-
-                        <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect vertical-menu-btn">
-                            <i class="fa fa-fw fa-bars"></i>
-                        </button>
-
-                        <!-- App Search-->
-                        <form class="app-search d-none d-lg-block">
-                            <div class="position-relative">
-                                <input type="text" class="form-control" placeholder="البحث...">
-                                <span class="uil-search"></span>
-                            </div>
-                        </form>
+    <body style="background-color: #fff !important;">
+        <div class="inovice-data-contain">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-4">
+                        <img src="assets/images/logo-dark.png" class="logo" alt="">
                     </div>
 
-                    <div class="d-flex">
-
-                        <div class="dropdown d-inline-block d-lg-none ml-2">
-                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-search-dropdown"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="uil-search"></i>
-                            </button>
-
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
-                                aria-labelledby="page-header-search-dropdown">
-                    
-                                <form class="p-3">
-                                    <div class="form-group m-0">
-                                        <div class="input-group">
-                                            <input type="text" class="form-control" placeholder="البحث ..." aria-label="Recipient's username">
-                                            
-                                            <div class="input-group-append">
-                                                <button class="btn btn-primary" type="submit">
-                                                    <i class="mdi mdi-magnify"></i>
-                                                </button>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </form>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-none d-lg-inline-block ml-1">
-                            <button type="button" class="btn header-item noti-icon waves-effect" data-toggle="fullscreen">
-                                <i class="uil-minus-path"></i>
-                            </button>
-                        </div>
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item noti-icon waves-effect" id="page-header-notifications-dropdown"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <i class="uil-bell"></i>
-                                
-                                <span class="badge badge-danger badge-pill">3</span>
-                            </button>
-
-                            <div class="dropdown-menu dropdown-menu-lg dropdown-menu-right p-0"
-                                aria-labelledby="page-header-notifications-dropdown">
-                                <div class="p-3">
-                                    <div class="row align-items-center">
-                                        <div class="col">
-                                            <h5 class="m-0 font-size-16">
-                                                Notifications 
-                                            </h5>
-                                        </div>
-
-                                        <div class="col-auto">
-                                            <a href="#!" class="small"> 
-                                                Mark all as read
-                                            </a>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div data-simplebar style="max-height: 230px;">
-                                    <a href="" class="text-reset notification-item">
-                                        <div class="media">
-                                            <div class="media-body">
-                                                <h6 class="mt-0 mb-1">
-                                                    عنوان الرسالة
-                                                </h6>
-
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1">
-                                                        تفاصيل الرسالة
-                                                    </p>
-
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="" class="text-reset notification-item">
-                                        <div class="media">
-                                            <div class="media-body">
-                                                <h6 class="mt-0 mb-1">
-                                                    عنوان الرسالة
-                                                </h6>
-
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1">
-                                                        تفاصيل الرسالة
-                                                    </p>
-
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="" class="text-reset notification-item">
-                                        <div class="media">
-                                            <div class="media-body">
-                                                <h6 class="mt-0 mb-1">
-                                                    عنوان الرسالة
-                                                </h6>
-
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1">
-                                                        تفاصيل الرسالة
-                                                    </p>
-
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-
-                                    <a href="" class="text-reset notification-item">
-                                        <div class="media">
-                                            <div class="media-body">
-                                                <h6 class="mt-0 mb-1">
-                                                    عنوان الرسالة
-                                                </h6>
-
-                                                <div class="font-size-12 text-muted">
-                                                    <p class="mb-1">
-                                                        تفاصيل الرسالة
-                                                    </p>
-
-                                                    <p class="mb-0"><i class="mdi mdi-clock-outline"></i> 3 min ago</p>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </a>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="dropdown d-inline-block">
-                            <button type="button" class="btn header-item waves-effect" id="page-header-user-dropdown"
-                                data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img 
-                                    class="rounded-circle header-profile-user"
-                                    src="assets/images/users/avatar-4.jpg"
-                                    alt="Header Avatar"  />
-
-                                <span class="d-none d-xl-inline-block ml-1 font-weight-medium font-size-15">
-                                    اسم المستخدم
+                    <div class="col-8">
+                        <ul class="inovice-name">
+                            <li class="border">
+                                <span class="name">
+                                    اسم المورد :
                                 </span>
 
-                                <i class="uil-angle-down d-none d-xl-inline-block font-size-15"></i>
-                            </button>
+                                <span class="data">
 
-                            <div class="dropdown-menu dropdown-menu-right">
-                                <!-- item-->
-                                <a class="dropdown-item" href="#">
-                                    <i class="uil uil-user-circle font-size-18 align-middle text-muted mr-1"></i>
+                                </span>
 
-                                    <span class="align-middle">
-                                    صفحة الحساب
-                                    </span>
-                                </a>
-
-                                <a class="dropdown-item d-block" href="#">
-                                    <i class="uil uil-cog font-size-18 align-middle mr-1 text-muted"></i>
-
-                                    <span class="align-middle">
-                                        تعديل الحساب
-                                    </span> 
-                                </a>
-                                
-                                <a class="dropdown-item d-block" href="#">
-                                    <i class="uil-globe font-size-18 align-middle mr-1 text-muted"></i>
-
-                                    <span class="align-middle">
-                                        تغير اللغة
-                                    </span> 
-                                </a>
-
-                                <a class="dropdown-item" href="#">
-                                    <i class="uil uil-sign-out-alt font-size-18 align-middle mr-1 text-muted"></i>
-                                    <span class="align-middle">
-                                        تسجيل خروج
-                                    </span>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </header>
-
-            <div class="vertical-menu">
-
-                <!-- LOGO -->
-                <div class="navbar-brand-box">
-                    <a href="index.html" class="logo logo-dark">
-                        <span class="logo-sm">
-                            <img src="assets/images/logo-sm.png" alt="" height="22">
-                        </span>
-                        <span class="logo-lg">
-                            <img src="assets/images/logo-dark.png" alt="" height="20">
-                        </span>
-                    </a>
-
-                    <a href="index.html" class="logo logo-light">
-                        <span class="logo-sm">
-                            <img src="assets/images/logo-sm.png" alt="" height="22">
-                        </span>
-                        <span class="logo-lg">
-                            <img src="assets/images/logo-light.png" alt="" height="20">
-                        </span>
-                    </a>
-                </div>
-
-                <button type="button" class="btn btn-sm px-3 font-size-16 header-item waves-effect vertical-menu-btn">
-                    <i class="fa fa-fw fa-bars"></i>
-                </button>
-
-                <div data-simplebar class="sidebar-menu-scroll">
-                    <div id="sidebar-menu">
-                        <ul class="metismenu list-unstyled" id="side-menu">
-                            <li>
-                                <a href="index.html">
-                                    <i class="uil-home-alt"></i>
-
-                                    <span>
-                                    الرئيسية
-                                    </span>
-                                </a>
+                                <span class="name en">
+                                    : Supplier
+                                </span>
                             </li>
 
-                            <li>
-                                <a href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="uil-window-section"></i>
-                                    <span>
-                                    المنتاجات
-                                    </span>
-                                </a>
+                            <li class="border">
+                                <span class="name">
+                                    العنــــــــــــــوان :
+                                </span>
 
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li>
-                                        <a href="products.html">
-                                        كل المنتاجات
-                                        </a>
-                                    </li>
-                                    <li>
-                                        <a href="products.html">
-                                        استعراض المنتاجات
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="products.html">
-                                        استعراض الخدمات
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="products.html">
-                                        استعراض المصورفات
-                                        </a>
-                                    </li>
-
-                                     <li>
-                                        <a href="product_units.html">
-                                        وحدات القياس
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="uil-user-circle"></i>
-                                    <span>
-                                    العملاء
-                                    </span>
-                                </a>
-
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li>
-                                        <a href="#" data-toggle="modal" data-target="#addClient">
-                                        اضافة عميل
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="clients_list.html">
-                                        استعراض العملاء
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="uil-invoice"></i>
+                                <span class="data">
                                     
-                                    <span>
-                                    الفواتير
-                                    </span>
-                                </a>
+                                </span>
 
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li>
-                                        <a href="add_client_invoice.html">
-                                        اضافة فاتوره عميل
-                                        </a>
-                                    </li>
+                                <span class="name en">
+                                    : Address 
+                                </span>
+                            </li>
 
-                                    <li>
-                                        <a href="add_proper_invoice.html">
-                                        اضافة فاتوره مورد
-                                        </a>
-                                    </li>
+                            <li class="border">
+                                <span class="name">
+                                    الرقم الضريبى :
+                                </span>
 
-                                    <li>
-                                        <a href="invoices_list.html">
-                                        استعراض الفواتير 
-                                        </a>
-                                    </li>
+                                <span class="data">
+                                    
+                                </span>
 
-                                    <li>
-                                        <a href="receipts_invoice.html">
-                                        السندات
-                                        </a>
-                                    </li>
-                                </ul>
+                                <span class="name en">
+                                    : NO VAT 
+                                </span>
                             </li>
 
                             <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="uil-store"></i>
-                                    
-                                    <span>
-                                    الموردين
-                                    </span>
-                                </a>
+                                <span class="name">
+                                    التاريـــــــــــــــــــخ : 
+                                </span>
 
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li>
-                                        <a href="#" data-toggle="modal" data-target="#addSuppliers">
-                                        اضافة مرود
-                                        </a>
-                                    </li>
+                                <span class="data">
+                                    ................................................................. 
+                                </span>
 
-                                    <li>
-                                        <a href="suppliers.html">
-                                        استعراض مرود
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
+                                <span class="name">
+                                    رقم الفاتورة :
+                                </span>
 
-                            <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="uil-file-alt"></i>
-                                    
-                                    <span>
-                                    التقارير
-                                    </span>
-                                </a>
-
-                                <ul class="sub-menu" aria-expanded="false">
-                                     <li>
-                                        <a href="reports.html">
-                                        تحليل المبيعات
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="dripicons-scale"></i>
-                                    
-                                    <span>
-                                    عروض الاسعار
-                                    </span>
-                                </a>
-
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li>
-                                        <a href="add_offer.html">
-                                        اضافة عرض
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="offers_list.html">
-                                            العروض
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-                            
-                            <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="uil uil-cog"></i>
-                                    
-                                    <span>
-                                    الاعدادات
-                                    </span>
-                                </a>
-
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li>
-                                        <a href="category.html">
-                                        اقسام المنتج
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="product_units.html">
-                                        وحدات القياس
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="costcenters.html">
-                                        مراكز التكلفة
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="fyears.html">
-                                        السنة المالية
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="stocks.html">
-                                        المخزون
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="uil-shutter-alt"></i>
-                                    
-                                    <span>
-                                    الصلاحيات
-                                    </span>
-                                </a>
-
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li>
-                                        <a href="users.html">
-                                        صلاحيات الدخول
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="roles.html">
-                                        مجموع الصلاحيات
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="permissions.html">
-                                        صلاحيات الوصول
-                                        </a>
-                                    </li>
-                                </ul>
-                            </li>
-
-                            <li>
-                                <a  href="javascript: void(0);" class="has-arrow waves-effect">
-                                    <i class="uil-share-alt"></i>
-                                    
-                                    <span>
-                                    اعدادات النظام
-                                    </span>
-                                </a>
-
-                                <ul class="sub-menu" aria-expanded="false">
-                                    <li>
-                                        <a href="system_accont.html">
-                                        الحساب الرئيسي
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="compaines.html">
-                                        الشركات
-                                        </a>
-                                    </li>
-
-                                    <li>
-                                        <a href="branchs.html">
-                                        الفروع
-                                        </a>
-                                    </li>
-                                </ul>
+                                <span class="data">
+                                    ................................................................. 
+                                </span>
                             </li>
                         </ul>
                     </div>
-                </div>
-            </div>
 
-            <!--add client-->
+                    <div class="col-12">
+                        <ul class="inovice-name flex-col-shape">
+                            <li class="border">
+                                <span class="name">
+                                    اسم العميل :
+                                </span>
 
-            <div class="modal fade" id="addClient" tabindex="-1" role="dialog" aria-labelledby="addClientTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="addClientTitle">
-                                اضافة عميل
-                            </h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="row">
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="رقم العميل">
-                                        </div>
-                                    </div>
+                                <span class="data">
 
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="اسم المنشأة">
-                                        </div>
-                                    </div>
+                                </span>
 
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الجوال ">
-                                        </div>
-                                    </div>
+                                <span class="name en">
+                                    : Customer
+                                </span>
+                            </li>
 
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="البريد الالكتروني">
-                                        </div>
-                                    </div>
+                            <li class="border">
+                                <span class="name">
+                                    الرقم الضريبى: :
+                                </span>
 
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الرقم الضريبي">
-                                        </div>
-                                    </div>
+                                <span class="data">
 
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الشارع">
-                                        </div>
-                                    </div>
+                                </span>
 
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الاقليم">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="رقم بريدي">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12 mb-3">
-                                        <label>
-                                            نسخ؟ عنوان الشحن
-                                        </label>
-                                        <div class="square-switch">
-                                            <input type="checkbox" id="square-switch1" switch="none" checked="">
-                                            <label for="square-switch1" class="m-0" data-on-label="On" data-off-label="Off"></label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الشارع">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الاقليم">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="رقم بريدي">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                الغاء
-                            </button>
-
-                            <button type="button" class="btn btn-primary">
-                                حفظ <i class="fab fa-telegram-plane ml-1"></i>
-                            </button>
-                        </div>
+                                <span class="name en">
+                                    : :NO VAT
+                                </span>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <!--add addSuppliers-->
+                    <div class="col-12">
+                        <ul class="inovice-name flex-col-shape">
+                            <li class="border">
+                                <span class="name">
+                                    العنــــــــــــــــوان :
+                                </span>
 
-            <div class="modal fade" id="addSuppliers" tabindex="-1" role="dialog" aria-labelledby="addSuppliersTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title" id="addSuppliersTitle">
-                                اضافة مورد
-                            </h5>
-                            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                                <span aria-hidden="true">&times;</span>
-                            </button>
-                        </div>
-                        <div class="modal-body">
-                            <form>
-                                <div class="row">
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="Supplier number">
-                                        </div>
-                                    </div>
+                                <span class="data">
 
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="اسم المنشأة">
-                                        </div>
-                                    </div>
+                                </span>
 
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الجوال ">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="البريد الالكتروني">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الرقم الضريبي">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">الحالة</option>
-                                                <option value="">الحالة</option>
-                                                <option value="">الحالة</option>
-                                                <option value="">الحالة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الشارع">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الاقليم">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="رقم بريدي">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-12 mb-3">
-                                        <label>
-                                            نسخ؟ عنوان الشحن
-                                        </label>
-                                        <div class="square-switch">
-                                            <input type="checkbox" id="square-switch1" switch="none" checked="">
-                                            <label for="square-switch1" class="m-0" data-on-label="On" data-off-label="Off"></label>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الشارع">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                                <option value="">المدينة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="الاقليم">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <input type="text" class="form-control" placeholder="رقم بريدي">
-                                        </div>
-                                    </div>
-
-                                    <div class="col-lg-6 col-12 mb-3">
-                                        <div class="form-group">
-                                            <select class="form-control">
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                                <option value="">الدولة</option>
-                                            </select>
-                                        </div>
-                                    </div>
-                                </div>
-                            </form>
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">
-                                الغاء
-                            </button>
-
-                            <button type="button" class="btn btn-primary">
-                                حفظ <i class="fab fa-telegram-plane ml-1"></i>
-                            </button>
-                        </div>
+                                <span class="name en">
+                                    : Address
+                                </span>
+                            </li>
+                        </ul>
                     </div>
-                </div>
-            </div>
 
-            <div class="main-content">
-                <div class="page-content">
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-12">
-                                <div class="page-title-box d-flex align-items-center justify-content-between">
-                                    <h4 class="mb-0">
-                                        فاتوره المورد
-                                    </h4>
+                    <table class="inovice-table table-bordered">
+                        <thead>
+                            <tr>
+                                <th class="column-data" colspan="1" style="width:500px;">
+                                    <span class="name">
+                                        المنتج
+                                    </span>
+
+                                    <span class="name">
+                                        Product
+                                    </span>
+                                </th>
+
+                                <th class="column-data">
+                                    <span class="name">
+                                        العدد
+                                    </span>
+
+                                    <span class="name">
+                                        Number
+                                    </span>
+                                </th>
+
+                                <th class="column-data">
+                                    <span class="name">
+                                        السعر
+                                    </span>
+
+                                    <span class="name">
+                                        Price.U
+                                    </span>
+                                </th>
+
+                                <th class="column-data">
+                                    <span class="name">
+                                        الضريبة
+                                    </span>
+
+                                    <span class="name">
+                                        Tax
+                                    </span>
+                                </th>
+
+                                <th class="column-data">
+                                    <span class="name">
+                                        مبلغ الضريبة
+                                    </span>
+
+                                    <span class="name">
+                                        Amount.T
+                                    </span>
+                                </th>
+
+                                <th class="column-data">
+                                    <span class="name">
+                                        الاجمالى
+                                    </span>
+
+                                    <span class="name">
+                                        Amount
+                                    </span>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+
+                            <tr>
+                                <td colspan="1" style="width:500px;">
+
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+
+                                <td>
+
+                                </td>
+
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                            
+                            
+                        </tbody>
+                    </table>
+                    <table class="inovice-table mb-5 table-bordered">
+                        <tr>
+                            <td colspan="3" rowspan="4">
+                                <ul class="contain">
+                                    <li>
+                                        <span>
+                                            ملاحظات
+                                        </span>
+
+                                        <span>
+                                            Notes
+                                        </span>
+                                    </li>
+                                </ul>
+
+                                <p class="text-justify">
+                                    ...........................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    ................................................................................
+                                    .....................................
+                                </p>
+                            </td>
+
+                            <th colspan="2"  style="width: 27%">
+                                <span class="name inline">
+                                    الاجمالـــــــى
+                                </span>
+
+                                <span class="name inline">
+                                    Total
+                                </span>
+                            </th>
+
+                            <td colspan="1" style="width: 12.5%">
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th colspan="2">
+                                <span class="name inline">
+                                    الخصـــــم
+                                </span>
+
+                                <span class="name inline">
+                                    Discount
+                                </span>
+                            </th>
+
+                            <td colspan="1">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="2">
+                                <span class="name">
+                                    الاجمالى قبل الضريبة
+
+                                </span>
+
+                                <span class="name">
+                                    VAT Before Total
+                                </span>
+                            </th>
+
+                            <td colspan="1">
+
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <th colspan="2">
+                                <span class="name inline">
+                                    الضريبــــــــــة
+                                </span>
+
+                                <span class="name inline">
+                                    VAT %
+                                </span>
+                            </th>
+
+                            <td colspan="1">
+
+                            </td>
+                        </tr>
+                        <tr>
+                            <th colspan="1" style="width: 11%;">
+                                <span class="name">
+                                    الاجمالى  
+                                </span>
+                            </th>
+
+                            <td style="width: 40%;">
+
+                            </td>
+                            
+                            <th style="width: 100px;">
+                                <span class="name">
+                                    Total
+                                </span>
+                            </th>
+
+                            <th colspan="2">
+                                <span class="name">
+                                    الاجمالى بعد الضريبة
+
+                                </span>
+
+                                <span class="name">
+                                    VAT After Total
+                                </span>
+                            </th>
+
+                            <td> 
+
+                            </td>
+                        </tr>
+                    </table>
+                    <div class="col-12">
+                        <h4 class="data">
+                            اى تعديل او شطب على اصل الفاتورة او النسخ يلغيها
+                        </h4>
+
+                        <h4 class="data">
+                            فى حالة االصدار بشيكات يتم اصدار الشيك باسم / موسسة ...........................................................................................................................................................................................................
+                        </h4>
+
+                        <h4 class="data">
+                            التحويل على البنك 22 account bank
+                        </h4>
+
+                        <h4 class="data">
+                            ايبان 22 number Iban
+                        </h4>
+
+                        <h4 class="data">
+                            212121
+                        </h4>
+                    </div>
+                    <div class="col-4 ml-auto">
+                        <ul class="inovice-name">
+                            <li class="border">
+                                <span class="name">
+                                    المستلم :
+                                </span>
+
+                                <span class="data">
+
+                                </span>
+
+                                <span class="name en">
+                                    :  Name Recipient
+                                </span>
+                            </li>
+
+                            <li class="border">
+                                <span class="name">
+                                    التوقيع :
+                                </span>
+
+                                <span class="data">
+
+                                </span>
+
+                                <span class="name en">
+                                    :  Signature
+                                </span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="col-12">
+                        <div class="copyrights">
+                            <div class="row">
+                                <div class="col-4 p-0">
+                                    <div class="qr-contain">
+                                        <img src="assets/images/qr.png" class="qr-code" alt="" />
+                                    </div>
                                 </div>
-                            </div>
-                        </div>
 
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="card">
-                                    <div class="card-body">
+                                <div class="col-78p-0">
+                                    <div class="content">
+                                        <p>
+                                            test04 - وادي الدواسر - المملكة العربية السعودية
+                                        </p>
 
-                                        <div class="row">
-                                            <div class="col-lg-4 col-4 mb-2">
-                                                <div class="text-muted">
-                                                    <h5 class="font-size-16 mb-3">اسم المورد :	</h5>
-                                                    <h5 class="font-size-15 mb-2">	test04 -jeddah branch</h5>
-
-                                                    <p class="mb-1 mt-4">test04, test04
-                                                        وادي الدواسر, المملكة العربية السعودية,
-                                                        qq
-                                                    </p>
-                                                    <h5 class="font-size-15 mt-3 mb-2">
-                                                        الرقم الضريبى:
-                                                    </h5>
-
-                                                    <p>
-                                                        213213213213213
-                                                    </p>
-                                                    <div class="text-muted mt-4">
-                                                        <p class="mb-1">العنوان</p>
-                                                        <p class="mb-1"><i class="uil uil-envelope-alt mr-1"></i> abc@123.com</p>
-                                                        <p><i class="uil uil-phone mr-1"></i> 012-345-6789</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-4 mb-2">
-                                                <div class="qr-img d-flex justify-content-center align-content-center align-items-center ">
-                                                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAIAAACx0UUtAAAABnRSTlMA/wD/AP83WBt9AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAFhElEQVR4nO3dSXIkNxBFQVHW979ya9MrLFKCMOQr0n1dORT5DVZhgeHr9+/ff0HY32+/APwLGaVORqmTUepklDoZpU5GqZNR6mSUOhmlTkapk1HqZJQ6GaVORqmTUepklDoZpU5Gqfu1cvHX19eu93g2LLoanju1JOv52o3faOM7T3n+Cue+77OV72scpU5GqZNR6mSUuqWaabCxDnjrh//KV9j4GisF1sof59p/cIpxlDoZpU5GqZNR6nbWTINzv9ZX7jxcu/LT/vmdzzWWrrXK3qq3BsZR6mSUOhmlTkapO1gzRUxVGCs//KeKs42FzlRP7hMZR6mTUepklDoZpe471EwbC53BxkbLVJG08uHBtXVU5xhHqZNR6mSUOhml7mDNdO7n+UqVMFVDTNUuG2cMTl278cMbr93IOEqdjFIno9TJKHU7a6Zrm7C9tVRoMFWNRZY3beyrXWMcpU5GqZNR6mSUuq9IL2Gjjet7zpUjK7VLZGe8a4yj1MkodTJKnYxS99r5TG/Nr3t+0PO11zasm3qNqQ+fazud66sZR6mTUepklDoZpa5yPtO5ZUZTNrZwNp6xtPHDg40NrXMlo3GUOhmlTkapk1HqDs7Ni2wNd225z7Xa5fnaaw28a4yj1MkodTJKnYxSt1QznZurtnE22sbi7Nm1c5LO/WGvzWOcYhylTkapk1HqZJS6pbl5GxcSRSa2vbW86SPqrcHKf3+KcZQ6GaVORqmTUep29pkG5xo8b02oi+x58XznyEYVGxlHqZNR6mSUOhmlbud6po3Tsa5t432uZJzSXEc19aBza6GMo9TJKHUySp2MUldZz3Su3/PWgUzPd3721kFQ1zbmmGIcpU5GqZNR6mSUuoNz856d+y2/8qCpW721F8OzjYXOCn0mfhAZpU5GqZNR6nbuAfHW8qbIMULnXmPjGb4rd36+duOdB8ZR6mSUOhmlTkapW6qZzk0De/7wSpPmXNvp3IOenZup+Pyga1/QOEqdjFIno9TJKHUH9xq/1h1Z+XBkTdLKS0YOVTrXwDOOUiej1MkodTJK3cE+07U+xPOdN66F+sQzfM9tJ3HtTCnjKHUySp2MUiej1O3ca3y89bGf5+d25n5rS4iND7rW37o2J9A4Sp2MUiej1MkodQdrpvFJn78xebNH9fzcwVvHAa8wjlIno9TJKHUySt3BM22nXGtpNHdMmLrV4Fxxdq6/NcU4Sp2MUiej1MkodUvrmQYbi5WVH/7XVlmtLCRacW1OoD4T/CcySp2MUiej1O2smTa2Fjaez3RuV++3lkadOwfLmbbwf8godTJKnYxSd29u3rVJYs/XDq5tgjB152cba9OVB9k3D/6QUepklDoZpW6pZjq32V1kk+/IRt3Xts84dz6T9Ux8ZzJKnYxSJ6PUHTzTdrBx9c+5Auvbt3+uHQesz8QPIqPUySh1Mkrdvb3GN3prEuBbp/QOzvXGBufuPMU4Sp2MUiej1MkodUt9preqhGvH4z7feXBu2tuzt3pj1xp4xlHqZJQ6GaVORqm7t9f4lI1TyK5Z2eN86lbPH55y7q3MzeMHkVHqZJQ6GaVuZ800uHZ67Lm9GKaee610W5maeK7AcqYtP5eMUiej1MkodQdrpnM2NjxW1gad209hZY7cRtdO2HpmHKVORqmTUepklLqPrJkGGxtaKwXWynMHG6f5rbzztU7hM+ModTJKnYxSJ6PUHayZ3tqRb2NzaKWEOrfpw8YtwM/tQLiRcZQ6GaVORqmTUep21kyRvRgGG2ffnSuhImuhpj5s3zz4Q0apk1HqZJS6jzyfiR/FOEqdjFIno9TJKHUySp2MUiej1MkodTJKnYxSJ6PUySh1MkqdjFIno9TJKHUySp2MUiej1P0DfSDusbKNNfEAAAAASUVORK5CYII=" alt="">
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-4 col-4 mb-2">
-                                                <div class="text-muted text-sm-right">
-                                                    <div>
-                                                        <h5 class="font-size-16 mb-1">
-                                                            اسم العميل
-                                                        </h5>
-                                                        <p>
-                                                            احمد عبيد التجارية	
-                                                        </p>
-                                                    </div>
-
-                                                    <div class="mt-4">
-                                                        <h5 class="font-size-16 mb-1">
-                                                            العنوان
-                                                        </h5>
-                                                        <p>العنوانالعنوانالعنوان</p>
-                                                    </div>
-                                                    <div class="mt-4">
-                                                        <h5 class="font-size-16 mb-1">الرقم الضريبى</h5>
-                                                        <p>#1123456</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        
-                                        <div class="py-2">
-                                            <h5 class="font-size-15">	
-                                                رقم الفاتورة INV/2021/35
-                                            </h5>
-
-                                            <div class="table-responsive">
-                                                <table class="table table-nowrap table-centered mb-0">
-                                                    <thead>
-                                                        <tr class="table-active">
-                                                            <th style="width: 70px;">No.</th>
-                                                            <th>المنتج</th>
-                                                            <th>العدد</th>
-                                                            <th>السعر</th>
-                                                            <th>
-                                                                الضريبة
-                                                            </th>
-                                                            <th>
-                                                                مبلغ الضريبة
-                                                            </th>
-                                                            <th class="text-right" style="width: 120px;">الاجمالى</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                         <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                         <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                         <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                         <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                         <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row">01</th>
-                                                            <td>
-                                                                <h5 class="font-size-15 mb-1">
-                                                                    تركيب لوحة استانلس ستيل ذهبي مع وجه اكريلك أبيض	
-                                                                </h5>
-                                                            </td>
-                                                            <td>
-                                                                19.00	
-                                                            </td>
-                                                            <td>
-                                                                750.00
-                                                            </td>
-                                                            <td>
-                                                                15.00
-                                                            </td>
-                                                            <td>
-                                                                2,137.50
-                                                            </td>
-                                                            <td class="text-right">16,387.50 </td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" colspan="6" class="border-0 text-right">
-                                                                الخصم  :</th>
-                                                            <td class="border-0 text-right">- $50.00</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" colspan="6" class="border-0 text-right">
-                                                                الاجمالى :</th>
-                                                            <td class="border-0 text-right">$25.00</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" colspan="6" class="border-0 text-right">
-                                                                الاجمالى قبل الضريبة</th>
-                                                            <td class="border-0 text-right">$13.00</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row" colspan="6" class="border-0 text-right">الضريبة VAT%</th>
-                                                            <td class="border-0 text-right"><h4 class="m-0">$498.00</h4></td>
-                                                        </tr>
-
-                                                        <tr>
-                                                            <th scope="row" colspan="6" class="border-0 text-right">
-                                                                الاجمالى بعد الضريبة
-                                                            </th>
-                                                            <td class="border-0 text-right"><h4 class="m-0">$498.00</h4></td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
-                                            </div>
-                                        </div>
-                                        <hr>
-
-                                        <div class="row">
-                                            <div class="col-lg-6 col-6 mb-2">
-                                                <div class="text-muted">
-                                                    <h5 class="font-size-16 mb-3"> 	
-                                                        اى تعديل او شطب على اصل الفاتورة او النسخ يلغيها
-                                                    </h5>
-                                                    <h5 class="font-size-15 mb-2">
-                                                        فى حالة الاصدار بشيكات يتم اصدار الشيك باسم / موسسة -----------------
-                                                    </h5>
-                                                    <p class="mb-1">
-                                                        التحويل على البنك 22 bank account
-                                                    </p>
-                                                    <h5 class="font-size-15 mb-2">
-                                                        ايبان 22 Iban number
-                                                    </h5>
-
-                                                    <p>
-                                                        212121
-                                                    </p>
-                                                </div>
-                                            </div>
-
-                                            <div class="col-lg-6 col-6 mb-2">
-                                                <div class="text-muted text-sm-right">
-                                                    <div class="d-flex align-items-center align-content-center justify-content-end">
-                                                        <h5 class="font-size-16 mr-1">
-                                                            اسم المستلم :
-
-                                                        </h5>
-                                                        <p>
-                                                            ...............
-                                                        </p>
-                                                    </div>
-                                                    <div class="mt-4 d-flex align-items-center align-content-center justify-content-end">
-                                                        <h5 class="font-size-16 mb-1">
-                                                            التوقيع:
-                                                        </h5>
-                                                        <p>   ...............</p>
-                                                    </div>
-                                                </div>
-                                            </div>
-                                        </div>
-
-                                        
-                                        <div class="d-print-none mt-4">
-                                            <div class="float-right">
-                                                <a href="javascript:window.print()" class="btn btn-success waves-effect waves-light mr-1"><i class="fa fa-print"></i></a>
-                                            </div>
-                                        </div>
+                                        <p>
+                                            1423564 - 1423564 - com.app@mahmoudsobhy - test04
+                                        </p>
                                     </div>
                                 </div>
                             </div>
