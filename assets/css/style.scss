@@ -67,18 +67,18 @@ textarea{
         background-color: #fff;
         box-shadow: 0px 4px 4px rgba($color: #000000, $alpha: .08);
         i{
-            color: #3AAFA9;
+            color: var(--secondary);
             font-size: 15px;
         }
     }
 }
 
 h1 , h2 , h3 , h4 , h5 ,h6{
-    color: #92278F;
+    color: var(--primary);
 } 
 
 .mm-active .active , .mm-active .active i , .mm-active , .mm-active>i , th ,  h4 span{
-    color: #00A79D !important;
+    color: var(--secondary) !important;
 }
 
 .logo-lg img{
@@ -180,7 +180,7 @@ h1 , h2 , h3 , h4 , h5 ,h6{
                 padding: 0px 20px;
 
                 span{
-                    color: #00A79D;
+                    color: var(--secondary);
                     font-size: 20px;
                     font-weight: 700;
                 }
@@ -197,7 +197,7 @@ h1 , h2 , h3 , h4 , h5 ,h6{
 
     .copyrights{
         padding: 20px 0px;
-        background-color: #00A79D;
+        background-color: var(--secondary);
         width: 100%;
         margin-top: 40px;
 
@@ -238,6 +238,11 @@ h1 , h2 , h3 , h4 , h5 ,h6{
     .dt-buttons.btn-group{
         .btn {
             padding: .47rem .5rem !important;
+        }
+    }
+    .table-responsive{
+        th , td{
+            min-width: 180px !important;
         }
     }
 }

@@ -200,11 +200,11 @@ textarea {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color: #92278F;
+  color: var(--primary);
 }
 
 .mm-active .active, .mm-active .active i, .mm-active, .mm-active > i, th, h4 span {
-  color: #00A79D !important;
+  color: var(--secondary) !important;
 }
 
 .logo-lg img {
@@ -406,6 +406,9 @@ h1, h2, h3, h4, h5, h6 {
   }
   .dt-buttons.btn-group .btn {
     padding: .47rem .5rem !important;
+  }
+  .table-responsive th, .table-responsive td {
+    min-width: 180px !important;
   }
 }
 
