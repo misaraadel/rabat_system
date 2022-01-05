@@ -195,7 +195,7 @@ textarea {
 }
 
 .upload-content .pen i {
-  color: #3AAFA9;
+  color: var(--secondary);
   font-size: 15px;
 }
 
@@ -344,7 +344,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .inovice-data-contain .inovice-table .contain li span {
-  color: #00A79D;
+  color: var(--secondary);
   font-size: 20px;
   font-weight: 700;
 }
@@ -358,7 +358,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .inovice-data-contain .copyrights {
   padding: 20px 0px;
-  background-color: #00A79D;
+  background-color: var(--secondary);
   width: 100%;
   margin-top: 40px;
 }
@@ -409,6 +409,10 @@ h1, h2, h3, h4, h5, h6 {
   }
   .table-responsive th, .table-responsive td {
     min-width: 180px !important;
+  }
+  .navbar-header .btn {
+    padding-left: 7px !important;
+    padding-right: 7px !important;
   }
 }
 
